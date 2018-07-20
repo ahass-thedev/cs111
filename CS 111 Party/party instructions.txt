@@ -1,0 +1,33 @@
+Party
+
+Write your code in the file Party.java, your file has to have this exact name with P capitalized.
+
+You must use the IO module to read inputs and to output your answer.
+
+Suppose that you are responsible for buying pizza and soda for a party. You must buy entire pizza pies and cases of soda. You cannot buy individual slices of pizza or cans of soda, nor can you buy fractional numbers of pizza pies or soda cases.
+
+Write a program that asks the user for the following information, in this order:
+
+the number of people attending the party (integer number)
+the number of slices of pizza each person should be able to eat (integer number)
+the number of cans of soda each person should be able to drink (integer number)
+the cost of a pizza pie (real number)
+the number of slices in a pizza pie (integer number)
+the cost of a case of soda (real number)
+the number of cans in a case of soda (integer number)
+Compute and output the total cost of the pizza and soda you will need to buy. Do not buy more than you need to in order to supply each partygoer with the desired number of pizza slices and soda cans.
+
+Assume that the user will only enter positive numbers.
+
+Example:
+
+java Party 
+100 
+3 
+2 
+7.99 
+8 
+24.99 
+72 
+RESULT: 378.59 
+Explanation of example: We need 300 slices of pizza and 200 cans of soda. Since there are 8 slices in a pie and 72 cans in a case, we need to buy at least 38 pies and 3 cases.
