@@ -1,0 +1,12 @@
+Write a program that asks the user for 2 numbers (integers) and outputs the sum of the two numbers.
+
+Write your code in a file called Sum.java, your class must have this exact name with the first letter capitalized.
+
+You must use the IO module to read inputs and to output your answer.
+
+Example:
+
+java Sum
+Enter number: 3
+Enter number: 5
+RESULT: 8
