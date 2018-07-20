@@ -1,0 +1,24 @@
+Pay Friend
+
+Write your code in the file PayFriend.java, your file has to have this exact name with P and F capitalized.
+
+You must use the IO module to read the input and to output your answer.
+
+Imagine that you work for a payment processing service called PayFriend. PayFriend charges money receivers the following fees:
+
+The first $100 has a flat fee of $5.
+Payments over $100 (but under $1000) have a fee of 3% or $6, whichever is higher.
+Payments of $1,000 (but under $10,000)  and over have a fee of 1% or $15, whichever is higher.
+Payments of $10,000 and over are subject to (fees as follows):
+The first $10,000 have a fee of 1%
+The next $5,000 have an additional fee of 2%
+Anything more will demand an additional fee of 3%
+For example, an payment of $40,000 would be subject to $950 fee: 1% on the first $10,000 ($100 fee), 2% on the next $5,000 ($100 fee), and 3% on the last $25,000 ($750 tax).
+
+Write a program that asks the user for the payment amount (real number) and outputs the fee owned (real number).
+
+Example:
+
+java PayFriend 
+450.0 
+RESULT: 13.5 
