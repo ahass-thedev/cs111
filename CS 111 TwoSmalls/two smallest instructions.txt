@@ -1,0 +1,27 @@
+Two Smallest
+
+Write your code in the file TwoSmallest.java.
+
+We wish to write a program that takes a set of numbers and determines which are the two smallest.
+
+Ask the user for the following information, in this order:
+
+A terminating value (real number). The user will enter this value again later, to indicate that he or she is finished providing input.
+A sequence of real numbers. Keep asking for numbers until the terminating value is entered.
+Compute and output the smallest and second-smallest real number, in that order. It is possible for the smallest and second-smallest numbers to be the same (if the sequence contains duplicate numbers).
+
+Example:
+
+java TwoSmallest
+123 [this is the terminating value, not part of the set of numbers]
+17
+23.5
+10
+15.2
+30
+8
+16
+123 [this is the terminating value again, indicating that the user is done]
+RESULT: 8.0
+RESULT: 10.0
+In ALL cases of error on input, RE-ASK the user for the input until it is correctly entered.
